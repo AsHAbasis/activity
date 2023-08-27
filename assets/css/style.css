@@ -1,0 +1,492 @@
+/* Font */
+	font-family: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* common code start */
+html{
+	font-family: 'Roboto', sans-serif;	
+}
+.container{
+	width: 85%;
+	height: 100%;
+	margin: 0px auto;
+}
+.d-flex{
+	display: flex;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+ul li{
+	list-style: none;
+}
+img{
+	width: 100%;
+}
+.title{
+	margin-bottom: 40px;
+	position: relative;
+}
+.title::after{
+	content: '';
+	position: absolute;
+	bottom: -17px;
+	width: 80px;
+	height: 3px;
+	background: #333333;
+	margin: 6px 0px;
+	text-align: center;
+	left: 700px;
+}
+
+/* common code end */
+/* header section start */
+.header-section{
+	width: 100%;
+	height: auto;
+}
+.header-poster{
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+	width: 100%;
+	height: auto;
+}
+#home{
+	width: 100%;
+	margin: 0px auto;
+}
+nav{
+	
+}
+.navbar{
+	padding: 60px;
+}
+.navbar-brand{
+	width: 30%;
+}
+.navbar a{
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 600;
+	padding: 0px 0px;
+}
+.navbar .navbar-nav li a{
+	color: #30c39e;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 10px 20px;
+	margin: 0px 10px;
+	transition: .3s linear;
+}
+.header-content{
+	padding: 80px;
+}
+.header-content h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: 5px;
+}
+.header-content h1{
+	color: #30c39e;
+	font-size: 65px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	margin: 10px;
+}
+.header-content p{
+	
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin: 10px;
+	line-height: 2;
+	text-align: justify;
+	width: 70%;
+}
+.header-content a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin: 10px;
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	transition: 0s all;
+}
+.header-content a:hover{
+	color: #fff;
+	background: green;
+	border: 0px;
+}
+/* header section end */
+
+/* about section start */
+.about-section{
+	background: #fff;
+	padding: 80px 80px;
+	text-align: center;
+}
+.about-section .title{
+	text-align: center;
+}
+.about-section .title::after{
+	left: 660px;
+}
+.about-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	
+}
+.about-area{
+	height: auto;
+	padding: 0px 60px;
+	background: #fff;
+	display: flex;
+}
+.about-content{
+	width: 30%;
+	height: auto;
+	margin: 10px;
+}
+.about-area .about-content h2{
+	color: #333333;
+	font-size: 22px;
+	font-weight: 600;
+}
+.about-area .about-content p{
+	color: #666666;
+	font-size: 15px;
+	font-weight: 400;
+}
+.about-poster{
+	width: 30%;
+	height: auto;
+	margin: 10px;
+	display: flex;
+}
+.about-poster img{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+/* about section end */
+
+/* services section start */
+.services-section{
+	background: #30C39E;
+	margin: 0px;
+	
+	
+}
+.services-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.services-section .title{
+	text-align: center;
+}
+.services-section .title::after{
+	left: 620px;
+}
+.services-area{
+	display: flex;
+}
+.services-area .card{
+	width: 30%;
+	height: 150px;
+
+}
+.services-area i{
+	
+}
+.services-area .card h2{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0px 10px;
+}
+.services-area .card p{
+	color: #eeeeee;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px;
+}
+/* services section end */
+
+/* experience section start */
+.experience-section{
+	background: #fff;
+	margin: 50px;
+	
+	
+}
+.experience-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.experience-section .title{
+	text-align: center;
+}
+.experience-section .title::after{
+	left: 550px;
+}
+.experience-area{
+	width: 100%;
+	margin: 20px 40px;
+}
+.experience-area .card{
+	width: 30%;
+	margin: 15px 15px;
+	box-shadow: 0px 0px 10px rgba(248,249,250);
+	cursor: pointer;
+}
+.experience-area .card h2{
+	color: #333333;
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.experience-area .card h2 span{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	background: #30C39E;
+	margin: 80px;
+	
+}
+/* experience section end */
+
+/* blog section start */
+.blog-section{
+	width: 100%;
+	margin: 30px;
+}
+.blog-section img{
+	width: 100%;
+}
+.blog-section{
+	height: auto;
+	width: auto;
+}
+.blog-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+	
+}
+.blog-section .title{
+	text-align: center;
+}
+.blog-section .title::after{
+	left: 600px;
+}
+.blog-section  h2{
+	color: blue;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 60px;
+	
+}
+.blog-section  p{
+	color: #cccccc;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 60px;
+	
+}
+.blog-item{
+	
+}
+.blog-item .card{
+	background: #fff;
+	width: 30%;
+	margin: 15px;
+	padding: 10px 40px;
+	height: 200px;
+}
+.blog-item .card  h2{
+	color: #333333;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+.blog-item .card  h2 span{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 500;
+	margin: 30px;
+	
+}
+.blog-item .card  p{
+	color: #999999;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+.blog-item .card  a{
+	color: #0a8ea0;
+	font-size: 14px;
+	font-weight: 600;
+	
+}
+/* blog section end */
+
+/* projects section start */
+.project-section{
+	background: #fff;
+	margin: 60px;
+	
+	
+}
+.project-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.project-section .title{
+	text-align: center;
+}
+.project-section .title::after{
+	left: 520px;
+}
+.project-area{
+	width: 100%;
+}
+.project-area .card{
+	width: 25%;
+	margin: 15px 15px;
+}
+
+
+/* projects section end */
+
+/* hire me section start */
+.hireMe-section{
+	background: #0A8EA0;
+	margin: 0px;
+	text-align:	center;
+}
+.hireMe-section h2{
+	color: #fff;
+	font-size: 28px;
+	font-weight: 600;
+	padding: 70px 0px;
+}
+.hireMe-section p{
+	color: #dddddd;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px 300px;
+	line-height: 1.5;
+}
+.hireMe-section a{
+	color: blue;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	margin: 30px 5px;
+}
+
+.hireMe-section a:hover{
+	color: #fff;
+	background: rgb(0,0,0,0.7);
+}
+/* hire me section end */
+
+/* contact section start */
+.contact-section{
+	background: #fff;
+	margin: 60px;
+	
+	
+}
+.contact-section h1{
+	color: #333333;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.contact-section .title{
+	text-align: center;
+}
+.contact-section .title::after{
+	left: 520px;
+}
+.contact-area{
+	display: flex;
+}
+.contact-content h2{
+	color: #333333;
+	font-size: 22px;
+	font-weight: 600;
+	
+}
+.contact-content i{
+	color: #30C39E;
+	margin: 0px 20px;
+	padding: 0px;
+}
+.contact-content p{
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+}
+.contact-label{
+    width: 25%;
+    float: left;
+    color: #333;
+	margin: 10px;
+	padding: 0px;
+ 
+}
+.contact-label h2{
+	color: #333333;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 20px 0px;
+}
+input[type=name], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+ .contact-label .name {
+  width: 25%;
+  margin-top: 6px;
+}
+
+.email {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
